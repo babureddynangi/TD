@@ -1,0 +1,319 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Credit Card DQ Validation Pipeline
+
+Parameters:
+  Environment:
+    Type: String
+    Default: dev
+    AllowedValues: [dev, staging, prod]
+  RulePackBucket:
+    Type: String
+    Description: S3 bucket containing rule pack JSON files
+  SchemaRulePackKey:
+    Type: String
+    Default: rule-packs/schema_rules.json
+  DQRulePackKey:
+    Type: String
+    Default: rule-packs/dq_rules.json
+  BusinessRulePackKey:
+    Type: String
+    Default: rule-packs/business_rules.json
+  StateRulePackKey:
+    Type: String
+    Default: rule-packs/state_rules.json
+
+Globals:
+  Function:
+    Runtime: python3.12
+    Timeout: 300
+    MemorySize: 256
+    Environment:
+      Variables:
+        RUNS_TABLE: !Ref ValidationRunsTable
+        RESULTS_TABLE: !Ref ValidationResultsTable
+        RULE_PACK_BUCKET: !Ref RulePackBucket
+        OUTPUT_BUCKET: !Ref DataBucket
+        SCHEMA_RULE_PACK_KEY: !Ref SchemaRulePackKey
+        DQ_RULE_PACK_KEY: !Ref DQRulePackKey
+        BUSINESS_RULE_PACK_KEY: !Ref BusinessRulePackKey
+        STATE_RULE_PACK_KEY: !Ref StateRulePackKey
+
+Resources:
+
+  # ── S3 ──────────────────────────────────────────────────────────────────────
+  DataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "cc-dq-data-${Environment}-${AWS::AccountId}"
+      NotificationConfiguration:
+        LambdaConfigurations:
+          - Event: s3:ObjectCreated:*
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: prefix
+                    Value: input/
+            Function: !GetAtt IngestFunction.Arn
+
+  IngestFunctionS3Permission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !GetAtt IngestFunction.Arn
+      Action: lambda:InvokeFunction
+      Principal: s3.amazonaws.com
+      SourceArn: !GetAtt DataBucket.Arn
+
+  # ── DynamoDB ─────────────────────────────────────────────────────────────────
+  ValidationRunsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "ValidationRuns-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: run_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: run_id
+          KeyType: HASH
+
+  ValidationResultsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Sub "ValidationResults-${Environment}"
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: run_id
+          AttributeType: S
+        - AttributeName: record_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: run_id
+          KeyType: HASH
+        - AttributeName: record_id
+          KeyType: RANGE
+
+  # ── IAM Role ─────────────────────────────────────────────────────────────────
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: PipelineAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [s3:GetObject, s3:PutObject]
+                Resource:
+                  - !Sub "arn:aws:s3:::cc-dq-data-${Environment}-${AWS::AccountId}/*"
+                  - !Sub "arn:aws:s3:::${RulePackBucket}/*"
+              - Effect: Allow
+                Action: [dynamodb:GetItem, dynamodb:PutItem, dynamodb:UpdateItem, dynamodb:Query]
+                Resource:
+                  - !GetAtt ValidationRunsTable.Arn
+                  - !GetAtt ValidationResultsTable.Arn
+              - Effect: Allow
+                Action: states:StartExecution
+                Resource: !Ref ValidationStateMachine
+
+  # ── Lambda Functions ──────────────────────────────────────────────────────────
+  IngestFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "cc-dq-ingest-${Environment}"
+      CodeUri: src/
+      Handler: handlers.ingest.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Environment:
+        Variables:
+          STATE_MACHINE_ARN: !Ref ValidationStateMachine
+
+  SchemaValidateFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "cc-dq-schema-validate-${Environment}"
+      CodeUri: src/
+      Handler: handlers.schema_validate.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+
+  DQValidateFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "cc-dq-dq-validate-${Environment}"
+      CodeUri: src/
+      Handler: handlers.dq_validate.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+
+  BusinessValidateFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "cc-dq-business-validate-${Environment}"
+      CodeUri: src/
+      Handler: handlers.business_validate.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+
+  StateValidateFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "cc-dq-state-validate-${Environment}"
+      CodeUri: src/
+      Handler: handlers.state_validate.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+
+  FinalizeFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "cc-dq-finalize-${Environment}"
+      CodeUri: src/
+      Handler: handlers.finalize.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+
+  StatusFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "cc-dq-status-${Environment}"
+      CodeUri: src/
+      Handler: handlers.status.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Events:
+        GetRun:
+          Type: HttpApi
+          Properties:
+            Path: /runs/{run_id}
+            Method: GET
+            ApiId: !Ref HttpApi
+        GetRunResults:
+          Type: HttpApi
+          Properties:
+            Path: /runs/{run_id}/results
+            Method: GET
+            ApiId: !Ref HttpApi
+
+  # ── API Gateway ───────────────────────────────────────────────────────────────
+  HttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: !Ref Environment
+
+  # ── Step Functions ────────────────────────────────────────────────────────────
+  StepFunctionsRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: states.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: InvokeLambdas
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: lambda:InvokeFunction
+                Resource:
+                  - !GetAtt SchemaValidateFunction.Arn
+                  - !GetAtt DQValidateFunction.Arn
+                  - !GetAtt BusinessValidateFunction.Arn
+                  - !GetAtt StateValidateFunction.Arn
+                  - !GetAtt FinalizeFunction.Arn
+
+  ValidationStateMachine:
+    Type: AWS::StepFunctions::StateMachine
+    Properties:
+      StateMachineName: !Sub "cc-dq-pipeline-${Environment}"
+      StateMachineType: STANDARD
+      RoleArn: !GetAtt StepFunctionsRole.Arn
+      Definition:
+        Comment: Credit Card DQ Validation Pipeline
+        StartAt: SchemaValidate
+        States:
+          SchemaValidate:
+            Type: Task
+            Resource: !GetAtt SchemaValidateFunction.Arn
+            Retry:
+              - ErrorEquals: [States.ALL]
+                MaxAttempts: 2
+                BackoffRate: 2
+            Catch:
+              - ErrorEquals: [States.ALL]
+                Next: RunError
+                ResultPath: "$.error_info"
+            Next: DQValidate
+
+          DQValidate:
+            Type: Task
+            Resource: !GetAtt DQValidateFunction.Arn
+            Retry:
+              - ErrorEquals: [States.ALL]
+                MaxAttempts: 2
+                BackoffRate: 2
+            Catch:
+              - ErrorEquals: [States.ALL]
+                Next: RunError
+                ResultPath: "$.error_info"
+            Next: BusinessValidate
+
+          BusinessValidate:
+            Type: Task
+            Resource: !GetAtt BusinessValidateFunction.Arn
+            Retry:
+              - ErrorEquals: [States.ALL]
+                MaxAttempts: 2
+                BackoffRate: 2
+            Catch:
+              - ErrorEquals: [States.ALL]
+                Next: RunError
+                ResultPath: "$.error_info"
+            Next: StateValidate
+
+          StateValidate:
+            Type: Task
+            Resource: !GetAtt StateValidateFunction.Arn
+            Retry:
+              - ErrorEquals: [States.ALL]
+                MaxAttempts: 2
+                BackoffRate: 2
+            Catch:
+              - ErrorEquals: [States.ALL]
+                Next: RunError
+                ResultPath: "$.error_info"
+            Next: Finalize
+
+          Finalize:
+            Type: Task
+            Resource: !GetAtt FinalizeFunction.Arn
+            End: true
+
+          RunError:
+            Type: Task
+            Resource: !GetAtt FinalizeFunction.Arn
+            Parameters:
+              "run_id.$": "$.run_id"
+              "bucket.$": "$.bucket"
+              "key.$": "$.key"
+              "records.$": "$.records"
+              "error": true
+            End: true
+
+Outputs:
+  ApiEndpoint:
+    Description: API Gateway endpoint URL
+    Value: !Sub "https://${HttpApi}.execute-api.${AWS::Region}.amazonaws.com/${Environment}"
+  DataBucketName:
+    Description: S3 bucket for input/output data
+    Value: !Ref DataBucket
+  StateMachineArn:
+    Description: Step Functions state machine ARN
+    Value: !Ref ValidationStateMachine

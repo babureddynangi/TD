@@ -1,0 +1,36 @@
+{
+  "required_fields": [
+    "record_id",
+    "account_id",
+    "tradeline_id",
+    "product_type",
+    "state_code",
+    "zip_code",
+    "reporting_date",
+    "account_status",
+    "payment_status",
+    "current_balance",
+    "credit_limit",
+    "available_credit",
+    "past_due_amount",
+    "delinquency_bucket",
+    "dispute_flag"
+  ],
+  "field_types": {
+    "current_balance": "float",
+    "credit_limit": "float",
+    "available_credit": "float",
+    "past_due_amount": "float",
+    "dispute_flag": "bool"
+  },
+  "date_fields": [
+    "reporting_date",
+    "close_date"
+  ],
+  "enum_fields": {
+    "product_type": ["CREDIT_CARD"],
+    "account_status": ["OPEN", "CLOSED", "DELINQUENT", "CHARGED_OFF", "FROZEN"],
+    "payment_status": ["CURRENT", "30_DAYS", "60_DAYS", "90_DAYS", "120_DAYS", "CHARGE_OFF"],
+    "delinquency_bucket": ["CURRENT", "30_DAYS", "60_DAYS", "90_DAYS", "120_DAYS", "CHARGE_OFF"]
+  }
+}

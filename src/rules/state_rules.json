@@ -1,0 +1,27 @@
+{
+  "CA": {
+    "required_fields": ["state_code", "reporting_date", "dispute_flag"],
+    "disallowed_statuses": [],
+    "extra_checks": ["DISPUTE_CONSISTENCY"]
+  },
+  "NY": {
+    "required_fields": ["state_code", "reporting_date"],
+    "disallowed_statuses": [],
+    "extra_checks": ["CLOSE_DATE_LOGIC"]
+  },
+  "TX": {
+    "required_fields": ["state_code", "reporting_date"],
+    "disallowed_statuses": [],
+    "extra_checks": []
+  },
+  "FL": {
+    "required_fields": ["state_code", "reporting_date"],
+    "disallowed_statuses": [],
+    "extra_checks": []
+  },
+  "IL": {
+    "required_fields": ["state_code", "reporting_date"],
+    "disallowed_statuses": [],
+    "extra_checks": []
+  }
+}

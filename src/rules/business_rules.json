@@ -1,0 +1,11 @@
+{
+  "allowed_product_types": ["CREDIT_CARD"],
+  "delinquency_bucket_map": {
+    "CURRENT":    ["CURRENT"],
+    "30_DAYS":    ["30_DAYS"],
+    "60_DAYS":    ["60_DAYS"],
+    "90_DAYS":    ["90_DAYS"],
+    "120_DAYS":   ["120_DAYS"],
+    "CHARGE_OFF": ["CHARGE_OFF"]
+  }
+}

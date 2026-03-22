@@ -1,0 +1,122 @@
+[
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000006",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "REVIEW_REQUIRED",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["STATE_NO_RULE_FOUND"],
+    "note": "WA has no state rule entry — REVIEW_REQUIRED"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000011",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["BUS_AVAILABLE_CREDIT_MISMATCH"],
+    "note": "available_credit=2500 but credit_limit(5000)-current_balance(1000)=4000"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000012",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["BUS_MISSING_CLOSE_DATE"],
+    "note": "account_status=CLOSED but close_date is null"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000013",
+    "schema_status": "FAIL",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["SCHEMA_INVALID_ENUM:product_type", "BUS_WRONG_PRODUCT_TYPE"],
+    "note": "product_type=DEBIT_CARD is not allowed"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000014",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["BUS_PAST_DUE_CONFLICT"],
+    "note": "payment_status=CURRENT but past_due_amount=150"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000015",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "REVIEW_REQUIRED",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["DQ_INVALID_STATE_CODE", "STATE_NO_RULE_FOUND"],
+    "note": "state_code=ZZ is not a valid US state"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000016",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["DQ_INVALID_ZIP"],
+    "note": "zip_code=9021 is only 4 digits"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000017",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["DQ_FUTURE_REPORTING_DATE"],
+    "note": "reporting_date=2027-06-01 is in the future"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000018",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["DQ_DUPLICATE_ACCOUNT_ID"],
+    "note": "account_id=ACC_001 is duplicated (also used by CC_000001)"
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000019",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "REVIEW_REQUIRED",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": ["STATE_NO_RULE_FOUND"],
+    "note": "OR has no state rule entry — REVIEW_REQUIRED"
+  }
+]

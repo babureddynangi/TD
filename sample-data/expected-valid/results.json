@@ -1,0 +1,112 @@
+[
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000001",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000002",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000003",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000004",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000005",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000007",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000008",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000009",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000010",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "SAMPLE_RUN",
+    "record_id": "CC_000020",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  }
+]
