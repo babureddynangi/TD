@@ -1,0 +1,120 @@
+{
+  "dataset": "small",
+  "record_count": 100,
+  "repetitions": 5,
+  "latency_ms": {
+    "mean": 17.7,
+    "min": 8.0,
+    "max": 33.2,
+    "p95": 33.2
+  },
+  "throughput_records_per_sec": 5642.0,
+  "outcome_counts": {
+    "FAIL": 40,
+    "PASS": 60
+  },
+  "evaluation": {
+    "total_records": 100,
+    "true_positives": 36,
+    "false_positives": 1,
+    "false_negatives": 0,
+    "true_negatives": 60,
+    "review_correct": 3,
+    "review_missed": 0,
+    "precision": 0.973,
+    "recall": 1.0,
+    "f1": 0.9863,
+    "defect_breakdown": {
+      "schema_missing_field": {
+        "injected": 9,
+        "detected": 9,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "clean": {
+        "injected": 61,
+        "detected": 0,
+        "missed": 0,
+        "false_positive": 1
+      },
+      "dq_null_mandatory": {
+        "injected": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "schema_type_mismatch": {
+        "injected": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "bus_available_credit": {
+        "injected": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "dq_duplicate_account": {
+        "injected": 4,
+        "detected": 4,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "schema_date_format": {
+        "injected": 3,
+        "detected": 3,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "bus_missing_close_date": {
+        "injected": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "dq_invalid_zip": {
+        "injected": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "schema_invalid_enum": {
+        "injected": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "bus_delinquency_mismatch": {
+        "injected": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "dq_invalid_state": {
+        "injected": 1,
+        "detected": 1,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "dq_future_date": {
+        "injected": 3,
+        "detected": 3,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "bus_past_due_conflict": {
+        "injected": 2,
+        "detected": 2,
+        "missed": 0,
+        "false_positive": 0
+      },
+      "state_no_rule": {
+        "injected": 3,
+        "detected": 3,
+        "missed": 0,
+        "false_positive": 0
+      }
+    }
+  }
+}

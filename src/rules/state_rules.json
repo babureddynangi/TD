@@ -1,25 +1,60 @@
 {
   "CA": {
+    "version": "1.0",
     "required_fields": ["state_code", "reporting_date", "dispute_flag"],
     "disallowed_statuses": [],
     "extra_checks": ["DISPUTE_CONSISTENCY"]
   },
   "NY": {
+    "version": "1.0",
     "required_fields": ["state_code", "reporting_date"],
     "disallowed_statuses": [],
     "extra_checks": ["CLOSE_DATE_LOGIC"]
   },
   "TX": {
+    "version": "1.0",
     "required_fields": ["state_code", "reporting_date"],
     "disallowed_statuses": [],
     "extra_checks": []
   },
   "FL": {
+    "version": "1.0",
     "required_fields": ["state_code", "reporting_date"],
     "disallowed_statuses": [],
     "extra_checks": []
   },
   "IL": {
+    "version": "1.0",
+    "required_fields": ["state_code", "reporting_date"],
+    "disallowed_statuses": [],
+    "extra_checks": ["DISPUTE_CONSISTENCY"]
+  },
+  "WA": {
+    "version": "1.0",
+    "required_fields": ["state_code", "reporting_date", "dispute_flag"],
+    "disallowed_statuses": ["CHARGED_OFF"],
+    "extra_checks": ["DISPUTE_CONSISTENCY"]
+  },
+  "GA": {
+    "version": "1.0",
+    "required_fields": ["state_code", "reporting_date"],
+    "disallowed_statuses": [],
+    "extra_checks": ["CLOSE_DATE_LOGIC"]
+  },
+  "OH": {
+    "version": "1.0",
+    "required_fields": ["state_code", "reporting_date"],
+    "disallowed_statuses": [],
+    "extra_checks": []
+  },
+  "PA": {
+    "version": "1.0",
+    "required_fields": ["state_code", "reporting_date", "dispute_flag"],
+    "disallowed_statuses": ["FROZEN"],
+    "extra_checks": ["DISPUTE_CONSISTENCY", "CLOSE_DATE_LOGIC"]
+  },
+  "AZ": {
+    "version": "1.0",
     "required_fields": ["state_code", "reporting_date"],
     "disallowed_statuses": [],
     "extra_checks": []

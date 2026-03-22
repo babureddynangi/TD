@@ -1,0 +1,502 @@
+[
+  {
+    "record_id": "SMALL_00001",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00002",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00003",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00004",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00005",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00006",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00007",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00008",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00009",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00010",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00011",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00012",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00013",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00014",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00015",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00016",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00017",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00018",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00019",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00020",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00021",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00022",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00023",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00024",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00025",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00026",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00027",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00028",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00029",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00030",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00031",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00032",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00033",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00034",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00035",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00036",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00037",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00038",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00039",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00040",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00041",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00042",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00043",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00044",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00045",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00046",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00047",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00048",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00049",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00050",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00051",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00052",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00053",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00054",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00055",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00056",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00057",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00058",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00059",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00060",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00061",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "SMALL_00062",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00063",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00064",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00065",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00066",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00067",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00068",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00069",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00070",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00071",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00072",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00073",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00074",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00075",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00076",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00077",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00078",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00079",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00080",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00081",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00082",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00083",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00084",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00085",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00086",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00087",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "SMALL_00088",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00089",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00090",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00091",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00092",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00093",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00094",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00095",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00096",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00097",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "SMALL_00098",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "SMALL_00099",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "SMALL_00100",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  }
+]

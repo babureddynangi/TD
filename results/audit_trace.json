@@ -1,0 +1,230 @@
+{
+  "run_id": "fae5f632-aa61-453c-b8e0-dd728d01a288",
+  "execution_arn": "arn:aws:states:us-east-1:123456789012:execution:cc-dq-pipeline-dev:fae5f632-aa61-453c-b8e0-dd728d01a288",
+  "input_s3_key": "input/sample_input.json",
+  "total_records": 20,
+  "steps": [
+    {
+      "step": 1,
+      "name": "Ingest",
+      "timestamp": "2026-03-22T07:07:43.456564+00:00",
+      "action": "Parsed 20 records from sample_input.json",
+      "run_record_created": {
+        "run_id": "fae5f632-aa61-453c-b8e0-dd728d01a288",
+        "status": "RUNNING",
+        "input_s3_key": "input/sample_input.json",
+        "execution_arn": "arn:aws:states:us-east-1:123456789012:execution:cc-dq-pipeline-dev:fae5f632-aa61-453c-b8e0-dd728d01a288",
+        "total_records": 20,
+        "passed_count": 0,
+        "failed_count": 0,
+        "created_at": "2026-03-22T07:07:43.456564+00:00",
+        "completed_at": ""
+      }
+    },
+    {
+      "step": 2,
+      "name": "SchemaValidate",
+      "timestamp": "2026-03-22T07:07:43.456564+00:00",
+      "duration_ms": 4.9,
+      "records_processed": 20,
+      "schema_fail_count": 1,
+      "rule_hits": [
+        {
+          "record_id": "CC_000013",
+          "reasons": [
+            "SCHEMA_INVALID_ENUM:product_type"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "name": "DQValidate",
+      "timestamp": "2026-03-22T07:07:43.456564+00:00",
+      "duration_ms": 0.8,
+      "records_processed": 20,
+      "dq_fail_count": 5,
+      "rule_hits": [
+        {
+          "record_id": "CC_000001",
+          "reasons": [
+            "DQ_DUPLICATE_ACCOUNT_ID"
+          ]
+        },
+        {
+          "record_id": "CC_000015",
+          "reasons": [
+            "DQ_INVALID_STATE_CODE"
+          ]
+        },
+        {
+          "record_id": "CC_000016",
+          "reasons": [
+            "DQ_INVALID_ZIP"
+          ]
+        },
+        {
+          "record_id": "CC_000017",
+          "reasons": [
+            "DQ_FUTURE_REPORTING_DATE"
+          ]
+        },
+        {
+          "record_id": "CC_000018",
+          "reasons": [
+            "DQ_DUPLICATE_ACCOUNT_ID"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "name": "BusinessValidate",
+      "timestamp": "2026-03-22T07:07:43.456564+00:00",
+      "duration_ms": 0.2,
+      "records_processed": 20,
+      "business_fail_count": 4,
+      "rule_hits": [
+        {
+          "record_id": "CC_000011",
+          "reasons": [
+            "BUS_AVAILABLE_CREDIT_MISMATCH"
+          ]
+        },
+        {
+          "record_id": "CC_000012",
+          "reasons": [
+            "BUS_MISSING_CLOSE_DATE"
+          ]
+        },
+        {
+          "record_id": "CC_000013",
+          "reasons": [
+            "BUS_WRONG_PRODUCT_TYPE"
+          ]
+        },
+        {
+          "record_id": "CC_000014",
+          "reasons": [
+            "BUS_PAST_DUE_CONFLICT"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "name": "StateValidate",
+      "timestamp": "2026-03-22T07:07:43.470677+00:00",
+      "duration_ms": 0.2,
+      "records_processed": 20,
+      "state_fail_count": 1,
+      "review_required_count": 2,
+      "rule_hits": [
+        {
+          "record_id": "CC_000012",
+          "state_status": "FAIL",
+          "reasons": [
+            "STATE_CLOSE_DATE_REQUIRED"
+          ]
+        },
+        {
+          "record_id": "CC_000015",
+          "state_status": "REVIEW_REQUIRED",
+          "reasons": [
+            "STATE_NO_RULE_FOUND"
+          ]
+        },
+        {
+          "record_id": "CC_000019",
+          "state_status": "REVIEW_REQUIRED",
+          "reasons": [
+            "STATE_NO_RULE_FOUND"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Finalize",
+      "timestamp": "2026-03-22T07:07:43.472807+00:00",
+      "duration_ms": 0.4,
+      "passed_count": 10,
+      "failed_count": 10,
+      "review_required_count": 2,
+      "s3_valid_key": "valid/fae5f632-aa61-453c-b8e0-dd728d01a288/results.json",
+      "s3_rejected_key": "rejected/fae5f632-aa61-453c-b8e0-dd728d01a288/results.json"
+    }
+  ],
+  "completed_at": "2026-03-22T07:07:43.473803+00:00",
+  "final_run_record": {
+    "run_id": "fae5f632-aa61-453c-b8e0-dd728d01a288",
+    "status": "COMPLETE",
+    "input_s3_key": "input/sample_input.json",
+    "execution_arn": "arn:aws:states:us-east-1:123456789012:execution:cc-dq-pipeline-dev:fae5f632-aa61-453c-b8e0-dd728d01a288",
+    "total_records": 20,
+    "passed_count": 10,
+    "failed_count": 10,
+    "created_at": "2026-03-22T07:07:43.456564+00:00",
+    "completed_at": "2026-03-22T07:07:43.473803+00:00"
+  },
+  "final_results_sample": [
+    {
+      "run_id": "fae5f632-aa61-453c-b8e0-dd728d01a288",
+      "record_id": "CC_000001",
+      "schema_status": "PASS",
+      "dq_status": "FAIL",
+      "business_status": "PASS",
+      "state_status": "PASS",
+      "overall_status": "FAIL",
+      "reportable": false,
+      "failure_reasons": [
+        "DQ_DUPLICATE_ACCOUNT_ID"
+      ]
+    },
+    {
+      "run_id": "fae5f632-aa61-453c-b8e0-dd728d01a288",
+      "record_id": "CC_000002",
+      "schema_status": "PASS",
+      "dq_status": "PASS",
+      "business_status": "PASS",
+      "state_status": "PASS",
+      "overall_status": "PASS",
+      "reportable": true,
+      "failure_reasons": []
+    },
+    {
+      "run_id": "fae5f632-aa61-453c-b8e0-dd728d01a288",
+      "record_id": "CC_000003",
+      "schema_status": "PASS",
+      "dq_status": "PASS",
+      "business_status": "PASS",
+      "state_status": "PASS",
+      "overall_status": "PASS",
+      "reportable": true,
+      "failure_reasons": []
+    },
+    {
+      "run_id": "fae5f632-aa61-453c-b8e0-dd728d01a288",
+      "record_id": "CC_000004",
+      "schema_status": "PASS",
+      "dq_status": "PASS",
+      "business_status": "PASS",
+      "state_status": "PASS",
+      "overall_status": "PASS",
+      "reportable": true,
+      "failure_reasons": []
+    },
+    {
+      "run_id": "fae5f632-aa61-453c-b8e0-dd728d01a288",
+      "record_id": "CC_000005",
+      "schema_status": "PASS",
+      "dq_status": "PASS",
+      "business_status": "PASS",
+      "state_status": "PASS",
+      "overall_status": "PASS",
+      "reportable": true,
+      "failure_reasons": []
+    }
+  ],
+  "total_pipeline_ms": 6.5
+}

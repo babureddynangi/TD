@@ -1,0 +1,1202 @@
+[
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00001",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "FAIL",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:reporting_date",
+      "DQ_NULL_MANDATORY:reporting_date",
+      "STATE_MISSING_REQUIRED_FIELD:reporting_date"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00002",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00003",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00004",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00005",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:account_id",
+      "DQ_NULL_MANDATORY:account_id"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00006",
+    "schema_status": "FAIL",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_TYPE_MISMATCH:current_balance"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00007",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "BUS_AVAILABLE_CREDIT_MISMATCH"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00008",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00009",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00010",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00011",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00012",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00013",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00014",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00015",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:zip_code",
+      "DQ_NULL_MANDATORY:zip_code"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00016",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00017",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00018",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00019",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_DUPLICATE_ACCOUNT_ID"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00020",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00021",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_DUPLICATE_ACCOUNT_ID"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00022",
+    "schema_status": "FAIL",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_DATE_FORMAT:reporting_date"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00023",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00024",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00025",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "BUS_MISSING_CLOSE_DATE"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00026",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00027",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00028",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00029",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_INVALID_ZIP"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00030",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:tradeline_id",
+      "DQ_NULL_MANDATORY:tradeline_id"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00031",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_DUPLICATE_ACCOUNT_ID"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00032",
+    "schema_status": "FAIL",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_INVALID_ENUM:product_type",
+      "BUS_WRONG_PRODUCT_TYPE"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00033",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00034",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "BUS_DELINQUENCY_MISMATCH"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00035",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00036",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00037",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "REVIEW_REQUIRED",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_INVALID_STATE_CODE",
+      "STATE_NO_RULE_FOUND"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00038",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "FAIL",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:reporting_date",
+      "DQ_NULL_MANDATORY:reporting_date",
+      "STATE_MISSING_REQUIRED_FIELD:reporting_date"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00039",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_FUTURE_REPORTING_DATE"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00040",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00041",
+    "schema_status": "FAIL",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_DATE_FORMAT:reporting_date"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00042",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00043",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00044",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00045",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00046",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00047",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00048",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00049",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "FAIL",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:reporting_date",
+      "DQ_NULL_MANDATORY:reporting_date",
+      "STATE_MISSING_REQUIRED_FIELD:reporting_date"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00050",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00051",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00052",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00053",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00054",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "BUS_PAST_DUE_CONFLICT"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00055",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:tradeline_id",
+      "DQ_NULL_MANDATORY:tradeline_id"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00056",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:zip_code",
+      "DQ_NULL_MANDATORY:zip_code"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00057",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00058",
+    "schema_status": "FAIL",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_INVALID_ENUM:product_type",
+      "BUS_WRONG_PRODUCT_TYPE"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00059",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00060",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00061",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "REVIEW_REQUIRED",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "STATE_NO_RULE_FOUND"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00062",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "FAIL",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:reporting_date",
+      "DQ_NULL_MANDATORY:reporting_date",
+      "STATE_MISSING_REQUIRED_FIELD:reporting_date"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00063",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00064",
+    "schema_status": "FAIL",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "FAIL",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_DATE_FORMAT:reporting_date",
+      "STATE_DISALLOWED_STATUS:FROZEN"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00065",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_INVALID_ZIP"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00066",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:account_id",
+      "DQ_NULL_MANDATORY:account_id"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00067",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00068",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00069",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00070",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00071",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00072",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "FAIL",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "BUS_MISSING_CLOSE_DATE",
+      "STATE_CLOSE_DATE_REQUIRED"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00073",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_FUTURE_REPORTING_DATE"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00074",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00075",
+    "schema_status": "FAIL",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_TYPE_MISMATCH:current_balance"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00076",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00077",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "BUS_PAST_DUE_CONFLICT"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00078",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00079",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00080",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00081",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00082",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00083",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00084",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "BUS_AVAILABLE_CREDIT_MISMATCH"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00085",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00086",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00087",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "REVIEW_REQUIRED",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "STATE_NO_RULE_FOUND"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00088",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00089",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00090",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00091",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00092",
+    "schema_status": "FAIL",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "SCHEMA_MISSING_FIELD:tradeline_id",
+      "DQ_NULL_MANDATORY:tradeline_id"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00093",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_DUPLICATE_ACCOUNT_ID"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00094",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00095",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "FAIL",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "STATE_DISALLOWED_STATUS:FROZEN"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00096",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00097",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "REVIEW_REQUIRED",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "STATE_NO_RULE_FOUND"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00098",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "PASS",
+    "reportable": true,
+    "failure_reasons": []
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00099",
+    "schema_status": "PASS",
+    "dq_status": "PASS",
+    "business_status": "FAIL",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "BUS_DELINQUENCY_MISMATCH"
+    ]
+  },
+  {
+    "run_id": "benchmark",
+    "record_id": "SMALL_00100",
+    "schema_status": "PASS",
+    "dq_status": "FAIL",
+    "business_status": "PASS",
+    "state_status": "PASS",
+    "overall_status": "FAIL",
+    "reportable": false,
+    "failure_reasons": [
+      "DQ_FUTURE_REPORTING_DATE"
+    ]
+  }
+]

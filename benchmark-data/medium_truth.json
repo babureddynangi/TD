@@ -1,0 +1,5002 @@
+[
+  {
+    "record_id": "MEDIUM_00001",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00002",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00003",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00004",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00005",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00006",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00007",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00008",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00009",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00010",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00011",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00012",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00013",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00014",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00015",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00016",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00017",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00018",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00019",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00020",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00021",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00022",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00023",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00024",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00025",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00026",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00027",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00028",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00029",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00030",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00031",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00032",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00033",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00034",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00035",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00036",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00037",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00038",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00039",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00040",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00041",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00042",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00043",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00044",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00045",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00046",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00047",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00048",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00049",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00050",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00051",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00052",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00053",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00054",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00055",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00056",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00057",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00058",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00059",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00060",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00061",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00062",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00063",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00064",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00065",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00066",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00067",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00068",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00069",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00070",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00071",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00072",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00073",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00074",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00075",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00076",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00077",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00078",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00079",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00080",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00081",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00082",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00083",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00084",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00085",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00086",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00087",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00088",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00089",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00090",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00091",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00092",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00093",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00094",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00095",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00096",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00097",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00098",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00099",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00100",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00101",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00102",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00103",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00104",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00105",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00106",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00107",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00108",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00109",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00110",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00111",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00112",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00113",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00114",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00115",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00116",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00117",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00118",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00119",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00120",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00121",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00122",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00123",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00124",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00125",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00126",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00127",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00128",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00129",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00130",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00131",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00132",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00133",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00134",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00135",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00136",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00137",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00138",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00139",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00140",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00141",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00142",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00143",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00144",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00145",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00146",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00147",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00148",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00149",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00150",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00151",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00152",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00153",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00154",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00155",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00156",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00157",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00158",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00159",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00160",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00161",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00162",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00163",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00164",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00165",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00166",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00167",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00168",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00169",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00170",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00171",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00172",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00173",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00174",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00175",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00176",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00177",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00178",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00179",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00180",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00181",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00182",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00183",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00184",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00185",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00186",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00187",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00188",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00189",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00190",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00191",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00192",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00193",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00194",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00195",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00196",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00197",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00198",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00199",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00200",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00201",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00202",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00203",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00204",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00205",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00206",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00207",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00208",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00209",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00210",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00211",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00212",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00213",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00214",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00215",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00216",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00217",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00218",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00219",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00220",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00221",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00222",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00223",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00224",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00225",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00226",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00227",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00228",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00229",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00230",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00231",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00232",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00233",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00234",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00235",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00236",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00237",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00238",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00239",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00240",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00241",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00242",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00243",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00244",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00245",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00246",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00247",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00248",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00249",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00250",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00251",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00252",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00253",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00254",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00255",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00256",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00257",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00258",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00259",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00260",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00261",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00262",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00263",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00264",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00265",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00266",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00267",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00268",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00269",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00270",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00271",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00272",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00273",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00274",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00275",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00276",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00277",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00278",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00279",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00280",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00281",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00282",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00283",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00284",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00285",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00286",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00287",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00288",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00289",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00290",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00291",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00292",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00293",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00294",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00295",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00296",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00297",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00298",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00299",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00300",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00301",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00302",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00303",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00304",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00305",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00306",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00307",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00308",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00309",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00310",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00311",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00312",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00313",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00314",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00315",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00316",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00317",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00318",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00319",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00320",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00321",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00322",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00323",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00324",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00325",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00326",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00327",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00328",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00329",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00330",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00331",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00332",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00333",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00334",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00335",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00336",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00337",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00338",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00339",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00340",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00341",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00342",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00343",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00344",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00345",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00346",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00347",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00348",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00349",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00350",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00351",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00352",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00353",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00354",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00355",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00356",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00357",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00358",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00359",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00360",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00361",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00362",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00363",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00364",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00365",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00366",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00367",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00368",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00369",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00370",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00371",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00372",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00373",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00374",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00375",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00376",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00377",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00378",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00379",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00380",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00381",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00382",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00383",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00384",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00385",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00386",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00387",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00388",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00389",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00390",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00391",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00392",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00393",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00394",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00395",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00396",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00397",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00398",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00399",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00400",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00401",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00402",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00403",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00404",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00405",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00406",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00407",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00408",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00409",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00410",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00411",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00412",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00413",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00414",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00415",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00416",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00417",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00418",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00419",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00420",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00421",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00422",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00423",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00424",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00425",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00426",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00427",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00428",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00429",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00430",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00431",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00432",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00433",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00434",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00435",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00436",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00437",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00438",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00439",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00440",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00441",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00442",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00443",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00444",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00445",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00446",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00447",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00448",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00449",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00450",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00451",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00452",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00453",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00454",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00455",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00456",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00457",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00458",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00459",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00460",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00461",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00462",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00463",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00464",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00465",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00466",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00467",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00468",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00469",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00470",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00471",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00472",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00473",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00474",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00475",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00476",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00477",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00478",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00479",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00480",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00481",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00482",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00483",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00484",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00485",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00486",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00487",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00488",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00489",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00490",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00491",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00492",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00493",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00494",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00495",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00496",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00497",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00498",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00499",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00500",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00501",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00502",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00503",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00504",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00505",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00506",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00507",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00508",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00509",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00510",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00511",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00512",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00513",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00514",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00515",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00516",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00517",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00518",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00519",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00520",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00521",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00522",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00523",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00524",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00525",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00526",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00527",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00528",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00529",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00530",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00531",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00532",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00533",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00534",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00535",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00536",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00537",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00538",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00539",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00540",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00541",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00542",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00543",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00544",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00545",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00546",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00547",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00548",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00549",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00550",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00551",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00552",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00553",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00554",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00555",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00556",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00557",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00558",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00559",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00560",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00561",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00562",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00563",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00564",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00565",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00566",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00567",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00568",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00569",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00570",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00571",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00572",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00573",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00574",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00575",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00576",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00577",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00578",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00579",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00580",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00581",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00582",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00583",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00584",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00585",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00586",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00587",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00588",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00589",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00590",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00591",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00592",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00593",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00594",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00595",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00596",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00597",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00598",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00599",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00600",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00601",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00602",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00603",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00604",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00605",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00606",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00607",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00608",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00609",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00610",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00611",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00612",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00613",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00614",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00615",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00616",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00617",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00618",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00619",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00620",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00621",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00622",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00623",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00624",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00625",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00626",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00627",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00628",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00629",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00630",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00631",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00632",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00633",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00634",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00635",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00636",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00637",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00638",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00639",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00640",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00641",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00642",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00643",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00644",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00645",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00646",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00647",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00648",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00649",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00650",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00651",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00652",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00653",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00654",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00655",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00656",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00657",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00658",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00659",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00660",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00661",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00662",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00663",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00664",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00665",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00666",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00667",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00668",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00669",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00670",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00671",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00672",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00673",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00674",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00675",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00676",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00677",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00678",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00679",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00680",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00681",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00682",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00683",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00684",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00685",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00686",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00687",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00688",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00689",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00690",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00691",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00692",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00693",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00694",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00695",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00696",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00697",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00698",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00699",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00700",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00701",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00702",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00703",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00704",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00705",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00706",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00707",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00708",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00709",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00710",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00711",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00712",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00713",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00714",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00715",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00716",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00717",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00718",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00719",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00720",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00721",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00722",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00723",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00724",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00725",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00726",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00727",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00728",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00729",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00730",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00731",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00732",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00733",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00734",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00735",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00736",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00737",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00738",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00739",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00740",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00741",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00742",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00743",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00744",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00745",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00746",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00747",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00748",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00749",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00750",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00751",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00752",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00753",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00754",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00755",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00756",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00757",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00758",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00759",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00760",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00761",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00762",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00763",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00764",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00765",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00766",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00767",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00768",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00769",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00770",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00771",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00772",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00773",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00774",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00775",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00776",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00777",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00778",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00779",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00780",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00781",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00782",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00783",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00784",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00785",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00786",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00787",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00788",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00789",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00790",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00791",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00792",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00793",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00794",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00795",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00796",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00797",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00798",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00799",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00800",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00801",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00802",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00803",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00804",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00805",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00806",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00807",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00808",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00809",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00810",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00811",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00812",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00813",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00814",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00815",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00816",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00817",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00818",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00819",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00820",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00821",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00822",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00823",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00824",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00825",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00826",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00827",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00828",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00829",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00830",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00831",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00832",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00833",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00834",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00835",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00836",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00837",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00838",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00839",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00840",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00841",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00842",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00843",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00844",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00845",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00846",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00847",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00848",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00849",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00850",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00851",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00852",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00853",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00854",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00855",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00856",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00857",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00858",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00859",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00860",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00861",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00862",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00863",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00864",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00865",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00866",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00867",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00868",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00869",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00870",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00871",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00872",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00873",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00874",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00875",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00876",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00877",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00878",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00879",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00880",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00881",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00882",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00883",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00884",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00885",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00886",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00887",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00888",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00889",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00890",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00891",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00892",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00893",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00894",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00895",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00896",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00897",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00898",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00899",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00900",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00901",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00902",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00903",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00904",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00905",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00906",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00907",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00908",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00909",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00910",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00911",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00912",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00913",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00914",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00915",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00916",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00917",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00918",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00919",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00920",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00921",
+    "defect_category": "schema_date_format",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00922",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00923",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00924",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00925",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00926",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00927",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00928",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00929",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00930",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00931",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00932",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00933",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00934",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00935",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00936",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00937",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00938",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00939",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00940",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00941",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00942",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00943",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00944",
+    "defect_category": "schema_missing_field",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00945",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00946",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00947",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00948",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00949",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00950",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00951",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00952",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00953",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00954",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00955",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00956",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00957",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00958",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00959",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00960",
+    "defect_category": "bus_delinquency_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00961",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00962",
+    "defect_category": "dq_future_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00963",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00964",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00965",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00966",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00967",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00968",
+    "defect_category": "state_no_rule",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "record_id": "MEDIUM_00969",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00970",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00971",
+    "defect_category": "bus_past_due_conflict",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00972",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00973",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00974",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00975",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00976",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00977",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00978",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00979",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00980",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00981",
+    "defect_category": "dq_duplicate_account",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00982",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00983",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00984",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00985",
+    "defect_category": "dq_invalid_zip",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00986",
+    "defect_category": "bus_available_credit",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00987",
+    "defect_category": "dq_invalid_state",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00988",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00989",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00990",
+    "defect_category": "schema_type_mismatch",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00991",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00992",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00993",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00994",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00995",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00996",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_00997",
+    "defect_category": "dq_null_mandatory",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00998",
+    "defect_category": "bus_missing_close_date",
+    "expected_outcome": "FAIL"
+  },
+  {
+    "record_id": "MEDIUM_00999",
+    "defect_category": "clean",
+    "expected_outcome": "PASS"
+  },
+  {
+    "record_id": "MEDIUM_01000",
+    "defect_category": "schema_invalid_enum",
+    "expected_outcome": "FAIL"
+  }
+]

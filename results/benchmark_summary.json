@@ -1,0 +1,362 @@
+[
+  {
+    "dataset": "small",
+    "record_count": 100,
+    "repetitions": 5,
+    "latency_ms": {
+      "mean": 17.7,
+      "min": 8.0,
+      "max": 33.2,
+      "p95": 33.2
+    },
+    "throughput_records_per_sec": 5642.0,
+    "outcome_counts": {
+      "FAIL": 40,
+      "PASS": 60
+    },
+    "evaluation": {
+      "total_records": 100,
+      "true_positives": 36,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "true_negatives": 60,
+      "review_correct": 3,
+      "review_missed": 0,
+      "precision": 0.973,
+      "recall": 1.0,
+      "f1": 0.9863,
+      "defect_breakdown": {
+        "schema_missing_field": {
+          "injected": 9,
+          "detected": 9,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "clean": {
+          "injected": 61,
+          "detected": 0,
+          "missed": 0,
+          "false_positive": 1
+        },
+        "dq_null_mandatory": {
+          "injected": 2,
+          "detected": 2,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_type_mismatch": {
+          "injected": 2,
+          "detected": 2,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_available_credit": {
+          "injected": 2,
+          "detected": 2,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_duplicate_account": {
+          "injected": 4,
+          "detected": 4,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_date_format": {
+          "injected": 3,
+          "detected": 3,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_missing_close_date": {
+          "injected": 2,
+          "detected": 2,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_invalid_zip": {
+          "injected": 2,
+          "detected": 2,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_invalid_enum": {
+          "injected": 2,
+          "detected": 2,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_delinquency_mismatch": {
+          "injected": 2,
+          "detected": 2,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_invalid_state": {
+          "injected": 1,
+          "detected": 1,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_future_date": {
+          "injected": 3,
+          "detected": 3,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_past_due_conflict": {
+          "injected": 2,
+          "detected": 2,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "state_no_rule": {
+          "injected": 3,
+          "detected": 3,
+          "missed": 0,
+          "false_positive": 0
+        }
+      }
+    }
+  },
+  {
+    "dataset": "medium",
+    "record_count": 1000,
+    "repetitions": 5,
+    "latency_ms": {
+      "mean": 91.2,
+      "min": 88.1,
+      "max": 95.1,
+      "p95": 95.1
+    },
+    "throughput_records_per_sec": 10970.0,
+    "outcome_counts": {
+      "FAIL": 429,
+      "PASS": 571
+    },
+    "evaluation": {
+      "total_records": 1000,
+      "true_positives": 398,
+      "false_positives": 14,
+      "false_negatives": 0,
+      "true_negatives": 571,
+      "review_correct": 17,
+      "review_missed": 0,
+      "precision": 0.966,
+      "recall": 1.0,
+      "f1": 0.9827,
+      "defect_breakdown": {
+        "dq_future_date": {
+          "injected": 20,
+          "detected": 20,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_missing_field": {
+          "injected": 57,
+          "detected": 57,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "clean": {
+          "injected": 585,
+          "detected": 0,
+          "missed": 0,
+          "false_positive": 14
+        },
+        "bus_past_due_conflict": {
+          "injected": 28,
+          "detected": 28,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_duplicate_account": {
+          "injected": 36,
+          "detected": 36,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_available_credit": {
+          "injected": 25,
+          "detected": 25,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_type_mismatch": {
+          "injected": 35,
+          "detected": 35,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_invalid_zip": {
+          "injected": 21,
+          "detected": 21,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "state_no_rule": {
+          "injected": 17,
+          "detected": 17,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_delinquency_mismatch": {
+          "injected": 24,
+          "detected": 24,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_date_format": {
+          "injected": 25,
+          "detected": 25,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_null_mandatory": {
+          "injected": 54,
+          "detected": 54,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_invalid_enum": {
+          "injected": 22,
+          "detected": 22,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_invalid_state": {
+          "injected": 32,
+          "detected": 32,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_missing_close_date": {
+          "injected": 19,
+          "detected": 19,
+          "missed": 0,
+          "false_positive": 0
+        }
+      }
+    }
+  },
+  {
+    "dataset": "large",
+    "record_count": 5000,
+    "repetitions": 5,
+    "latency_ms": {
+      "mean": 489.0,
+      "min": 448.2,
+      "max": 577.9,
+      "p95": 577.9
+    },
+    "throughput_records_per_sec": 10225.0,
+    "outcome_counts": {
+      "PASS": 2923,
+      "FAIL": 2077
+    },
+    "evaluation": {
+      "total_records": 5000,
+      "true_positives": 1883,
+      "false_positives": 114,
+      "false_negatives": 0,
+      "true_negatives": 2923,
+      "review_correct": 80,
+      "review_missed": 0,
+      "precision": 0.9429,
+      "recall": 1.0,
+      "f1": 0.9706,
+      "defect_breakdown": {
+        "clean": {
+          "injected": 3037,
+          "detected": 0,
+          "missed": 0,
+          "false_positive": 114
+        },
+        "dq_null_mandatory": {
+          "injected": 263,
+          "detected": 263,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_invalid_enum": {
+          "injected": 114,
+          "detected": 114,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_invalid_state": {
+          "injected": 134,
+          "detected": 134,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_missing_field": {
+          "injected": 229,
+          "detected": 229,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_invalid_zip": {
+          "injected": 97,
+          "detected": 97,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_date_format": {
+          "injected": 169,
+          "detected": 169,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "schema_type_mismatch": {
+          "injected": 143,
+          "detected": 143,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_missing_close_date": {
+          "injected": 98,
+          "detected": 98,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_past_due_conflict": {
+          "injected": 150,
+          "detected": 150,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_available_credit": {
+          "injected": 150,
+          "detected": 150,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "bus_delinquency_mismatch": {
+          "injected": 88,
+          "detected": 88,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_future_date": {
+          "injected": 105,
+          "detected": 105,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "dq_duplicate_account": {
+          "injected": 143,
+          "detected": 143,
+          "missed": 0,
+          "false_positive": 0
+        },
+        "state_no_rule": {
+          "injected": 80,
+          "detected": 80,
+          "missed": 0,
+          "false_positive": 0
+        }
+      }
+    }
+  }
+]
