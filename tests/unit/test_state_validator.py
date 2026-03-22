@@ -22,7 +22,7 @@ def test_known_state_passes(state_rules):
 
 
 def test_unknown_state_review_required(state_rules):
-    record = _base_record("WA")  # WA not in state_rules.json
+    record = _base_record("OR")  # OR not in state_rules.json
     status, reasons = validate_record(record, state_rules)
     assert status == "REVIEW_REQUIRED"
     assert "STATE_NO_RULE_FOUND" in reasons

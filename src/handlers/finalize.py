@@ -64,8 +64,10 @@ def handler(event: dict, context) -> dict:
 
     valid_records = []
     rejected_records = []
+    review_records = []
     passed_count = 0
     failed_count = 0
+    review_count = 0
 
     for record in records:
         result = _build_validation_result(run_id, record)
@@ -76,6 +78,9 @@ def handler(event: dict, context) -> dict:
         if result.overall_status == "PASS":
             valid_records.append(result.to_dict())
             passed_count += 1
+        elif result.overall_status == "REVIEW_REQUIRED":
+            review_records.append(result.to_dict())
+            review_count += 1
         else:
             rejected_records.append(result.to_dict())
             failed_count += 1
@@ -98,6 +103,15 @@ def handler(event: dict, context) -> dict:
             ContentType="application/json",
         )
 
+    # Write review queue output to S3 (first-class REVIEW_REQUIRED lane)
+    if review_records:
+        s3.put_object(
+            Bucket=output_bucket,
+            Key=f"review/{run_id}/results.json",
+            Body=json.dumps(review_records, default=str),
+            ContentType="application/json",
+        )
+
     completed_at = datetime.now(timezone.utc).isoformat()
     final_status = "ERROR" if is_error_path else "COMPLETE"
 
@@ -106,14 +120,15 @@ def handler(event: dict, context) -> dict:
         Key={"run_id": run_id},
         UpdateExpression=(
             "SET #st = :status, passed_count = :passed, failed_count = :failed, "
-            "total_records = :total, completed_at = :completed_at"
+            "review_count = :review, total_records = :total, completed_at = :completed_at"
         ),
         ExpressionAttributeNames={"#st": "status"},
         ExpressionAttributeValues={
             ":status": final_status,
             ":passed": passed_count,
             ":failed": failed_count,
-            ":total": passed_count + failed_count,
+            ":review": review_count,
+            ":total": passed_count + failed_count + review_count,
             ":completed_at": completed_at,
         },
     )
@@ -123,4 +138,5 @@ def handler(event: dict, context) -> dict:
         "status": final_status,
         "passed_count": passed_count,
         "failed_count": failed_count,
+        "review_count": review_count,
     }

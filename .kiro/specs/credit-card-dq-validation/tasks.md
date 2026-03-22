@@ -161,7 +161,7 @@ Incremental implementation of the AWS serverless credit-card data quality valida
     - `src/rules/schema_rules.json` — required fields list, field types map, enum definitions
     - `src/rules/dq_rules.json` — mandatory fields list, uniqueness keys, format patterns
     - `src/rules/business_rules.json` — delinquency bucket to payment_status mapping, allowed product types
-    - `src/rules/state_rules.json` — entries for CA and NY with required_fields, disallowed_statuses, extra_checks
+    - `src/rules/state_rules.json` — entries for CA, NY, TX, FL, IL, WA, GA, OH, PA, AZ with required_fields, disallowed_statuses, extra_checks
     - _Requirements: 2.9, 4.13, 5.1_
 
 - [x] 13. Sample data and conftest generators

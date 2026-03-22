@@ -77,7 +77,7 @@ class ValidationResult:
     dq_status: str = "PASS"           # PASS | FAIL
     business_status: str = "PASS"     # PASS | FAIL
     state_status: str = "PASS"        # PASS | FAIL | REVIEW_REQUIRED
-    overall_status: str = "PASS"      # PASS | FAIL
+    overall_status: str = "PASS"      # PASS | FAIL | REVIEW_REQUIRED
     reportable: bool = True
     failure_reasons: list = field(default_factory=list)
 

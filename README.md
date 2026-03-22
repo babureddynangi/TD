@@ -8,7 +8,7 @@ An AWS serverless MVP for validating synthetic credit-card test data through a m
 
 | Claim | Status |
 |---|---|
-| Multi-stage validation pipeline runs end-to-end | **Measured** — 55 unit tests passing |
+| Multi-stage validation pipeline runs end-to-end | **Measured** — 57 unit tests passing |
 | Schema, DQ, business, and state rules are modular | **Measured** — 4 independent Lambda handlers |
 | Rule packs are externalized and versioned | **Measured** — JSON files in `src/rules/` |
 | REVIEW_REQUIRED lane for uncertain cases | **Measured** — implemented in state validator |
@@ -20,7 +20,7 @@ An AWS serverless MVP for validating synthetic credit-card test data through a m
 | Throughput: 10,000+ records/sec | **Measured** — local benchmark, 5 repetitions |
 | Precision: 0.97 / Recall: 1.0 / F1: 0.98 | **Measured** — seeded defect evaluation |
 | 50-state compliance rollout | **Future work** |
-| ML anomaly detection | **Future work** |
+| ML anomaly detection | **Future work** — no SageMaker resources in this repo |
 
 ---
 
@@ -109,7 +109,9 @@ Every record gets one of three outcomes:
 |---|---|
 | `PASS` | All four stages passed — record is reportable |
 | `FAIL` | One or more stages failed — record written to /rejected/ with reason codes |
-| `REVIEW_REQUIRED` | State rule not found — record needs human review before reporting |
+| `REVIEW_REQUIRED` | State rule not found — record written to /review/ for human review before reporting |
+
+REVIEW_REQUIRED is a first-class outcome. It does not collapse to FAIL. Records in this lane are written to `s3://bucket/review/{run_id}/results.json` and tracked separately in the run summary (`review_count`).
 
 ---
 
@@ -232,10 +234,11 @@ Every run produces a full audit trail:
 3. Step Functions execution ARN stored against `run_id`
 4. Each stage annotates records in-flight — no data lost between stages
 5. `ValidationResults` DynamoDB items written per record (keyed by `run_id` + `record_id`)
-6. `ValidationRuns` updated to `COMPLETE` with `passed_count` / `failed_count`
+6. `ValidationRuns` updated to `COMPLETE` with `passed_count` / `failed_count` / `review_count`
 7. Valid records written to `s3://bucket/valid/{run_id}/results.json`
 8. Rejected records written to `s3://bucket/rejected/{run_id}/results.json`
-9. Run queryable via `GET /runs/{run_id}` at any time after completion
+9. REVIEW_REQUIRED records written to `s3://bucket/review/{run_id}/results.json`
+10. Run queryable via `GET /runs/{run_id}` at any time after completion
 
 ---
 
@@ -314,9 +317,9 @@ credit-card-dq-validation/
 | test_schema_validator.py | 8 | Required fields, type mismatch, date format, enum validation |
 | test_dq_validator.py | 9 | Nulls, duplicates, state code, ZIP, future date |
 | test_business_validator.py | 13 | All 7 business rules, pass and fail cases |
-| test_state_validator.py | 6 | Known state, unknown state, disallowed status, extra checks |
-| test_result_model.py | 6 | Round-trip serialization, finalize logic, REVIEW_REQUIRED handling |
-| **Total** | **55** | **All passing** |
+| test_state_validator.py | 6 | Known state, unknown state (OR→REVIEW_REQUIRED), disallowed status, extra checks |
+| test_result_model.py | 7 | Round-trip serialization, finalize logic, REVIEW_REQUIRED as first-class outcome, FAIL priority |
+| **Total** | **57** | **All passing** |
 
 Run tests:
 

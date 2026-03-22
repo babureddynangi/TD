@@ -19,7 +19,7 @@ VALID_STATES = [
     "VA","WA","WV","WI","WY","DC",
 ]
 
-KNOWN_STATES = ["CA", "NY", "TX", "FL", "IL"]  # states with rules in state_rules.json
+KNOWN_STATES = ["CA", "NY", "TX", "FL", "IL", "WA", "GA", "OH", "PA", "AZ"]  # states with rules in state_rules.json
 UNKNOWN_STATES = [s for s in VALID_STATES if s not in KNOWN_STATES]
 
 PAYMENT_STATUSES = ["CURRENT", "30_DAYS", "60_DAYS", "90_DAYS", "120_DAYS", "CHARGE_OFF"]

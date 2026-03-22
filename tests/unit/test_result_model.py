@@ -29,8 +29,18 @@ def test_finalize_schema_fail():
     assert r.reportable is False
 
 
-def test_finalize_review_required_counts_as_fail():
+def test_finalize_review_required_is_first_class_outcome():
     r = build_result("run-1", "rec-1")
+    r.state_status = "REVIEW_REQUIRED"
+    r = finalize_result(r)
+    assert r.overall_status == "REVIEW_REQUIRED"
+    assert r.reportable is False
+
+
+def test_finalize_fail_takes_priority_over_review_required():
+    """A FAIL in any stage overrides REVIEW_REQUIRED."""
+    r = build_result("run-1", "rec-1")
+    r.dq_status = "FAIL"
     r.state_status = "REVIEW_REQUIRED"
     r = finalize_result(r)
     assert r.overall_status == "FAIL"

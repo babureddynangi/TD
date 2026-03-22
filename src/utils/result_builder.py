@@ -14,14 +14,28 @@ def build_result(run_id: str, record_id: str) -> ValidationResult:
 def finalize_result(result: ValidationResult) -> ValidationResult:
     """
     Compute overall_status and reportable from the four stage statuses.
-    REVIEW_REQUIRED on state_status counts as non-PASS (overall = FAIL).
+
+    Outcome rules:
+    - PASS        — all four stages are PASS; record is reportable
+    - REVIEW_REQUIRED — state_status is REVIEW_REQUIRED (and no other stage failed);
+                        record is not yet reportable, needs human review
+    - FAIL        — any stage is FAIL; record is rejected
     """
-    all_pass = (
-        result.schema_status == "PASS"
-        and result.dq_status == "PASS"
-        and result.business_status == "PASS"
-        and result.state_status == "PASS"
-    )
-    result.overall_status = "PASS" if all_pass else "FAIL"
-    result.reportable = all_pass
+    stage_statuses = [
+        result.schema_status,
+        result.dq_status,
+        result.business_status,
+        result.state_status,
+    ]
+
+    if any(s == "FAIL" for s in stage_statuses):
+        result.overall_status = "FAIL"
+        result.reportable = False
+    elif result.state_status == "REVIEW_REQUIRED":
+        result.overall_status = "REVIEW_REQUIRED"
+        result.reportable = False
+    else:
+        result.overall_status = "PASS"
+        result.reportable = True
+
     return result
